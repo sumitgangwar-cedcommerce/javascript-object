@@ -35,7 +35,7 @@ const add_obj = (event)=>{
 
     food = new foodItem(2 , "Banana" , 60)
     mergeObj = {...emp , ...food}
-    document.getElementById('merge').innerHTML = "<h1>Food Object Merge With emp Object: </h1><p>" + JSON.stringify(mergeObj) + "</p>"
+    document.getElementById('merge').innerHTML = "<h1>Food Object Merge With Emp Object: </h1><p>" + JSON.stringify(mergeObj) + "</p>"
 
 
     //Freeze the emp object
